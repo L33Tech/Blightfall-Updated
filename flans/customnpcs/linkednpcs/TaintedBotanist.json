@@ -1,0 +1,368 @@
+{
+    NPCData: {
+        ReturnToStart: 1b,
+        NpcInv: [
+            {
+                Slot: 0b,
+                id: 5698s,
+                Count: 1b,
+                tag: {
+                    lens: {
+                        id: 5807s,
+                        Count: 1b,
+                        tag: {
+                            color: 2
+                        },
+                        Damage: 11s
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 6496s,
+                Count: 1b,
+                Damage: 120s
+            },
+            {
+                Slot: 2b,
+                id: 6018s,
+                Count: 1b,
+                Damage: 200s
+            },
+            {
+                Slot: 3b,
+                id: 5695s,
+                Count: 1b,
+                Damage: 220s
+            },
+            {
+                Slot: 4b,
+                id: 5774s,
+                Count: 1b,
+                tag: {
+                },
+                Damage: 1000s
+            },
+            {
+                Slot: 5b,
+                id: 4138s,
+                Count: 4b,
+                Damage: 12s
+            },
+            {
+                Slot: 6b,
+                id: 5671s,
+                Count: 1b,
+                Damage: 19s
+            },
+            {
+                Slot: 7b,
+                id: 5690s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 5688s,
+                Count: 1b,
+                Damage: 15s
+            }
+        ],
+        PotionEffect: 0,
+        stopAndInteract: 1b,
+        Size: 5,
+        Resistances: {
+            Arrow: 1.4084507f,
+            Explosion: 1.0f,
+            Melee: 1.4084507f,
+            Knockback: 1.0f
+        },
+        BossBar: 0b,
+        RespawnTime: 0,
+        NpcAngrySound: "",
+        ReactsToFire: 0b,
+        IgnoreCobweb: 0b,
+        PositionOffsetZ: 5.0f,
+        PositionOffsetY: 5.0f,
+        PositionOffsetX: 5.0f,
+        TransformHasAI: 0b,
+        AttackStrenght: 5,
+        NpcLines: {
+            Lines: [
+            ]
+        },
+        MovingPatern: 0,
+        DefendFaction: 0b,
+        FireIndirect: 0,
+        NpcVisible: 0,
+        FindShelter: 2,
+        TacticalVariant: 0,
+        Orientation: 0,
+        KnockBack: 0,
+        TransformHasJob: 0b,
+        CanDespawn: 0b,
+        BurnInSun: 0b,
+        StandingState: 0,
+        AttackInvisible: 0b,
+        WalkingRange: 5,
+        ShotCount: 1,
+        pDur: 5,
+        StartPosNew: [-1010,143,988],
+        AttackRange: 2,
+        NpcKillLines: {
+            Lines: [
+            ]
+        },
+        PotionImmune: 1b,
+        AvoidsSun: 0b,
+        Texture: "playerzombiemod:textures/entity/steve_tainted.png",
+        NpcJob: 0,
+        BurstCount: 1,
+        NpcAttackLines: {
+            Lines: [
+            ]
+        },
+        pSpeed: 10,
+        pArea: 3,
+        pImpact: 0,
+        MoveState: 0,
+        RangeAndMelee: 0,
+        pRender3D: 1b,
+        CombatRegen: 0,
+        DistanceToMelee: 4,
+        pEffect: 0,
+        NpcStepSound: "",
+        FireRate: 4,
+        pEffAmp: 0,
+        ImmuneToFire: 0b,
+        NpcKilledLines: {
+            Lines: [
+            ]
+        },
+        DisablePitch: 0b,
+        pPhysics: 0b,
+        TransformHasInv: 0b,
+        NpcInteractLines: {
+            Lines: [
+                {
+                    Line: "Hello @p",
+                    Song: "",
+                    Slot: 0
+                }
+            ]
+        },
+        pSpin: 1b,
+        NpcHurtSound: "minecraft:game.player.hurt",
+        pTrail: 6,
+        CreatureType: 0,
+        TransformHasDisplay: 0b,
+        NoFallDamage: 0b,
+        TransformHasRole: 0b,
+        Name: "Tainted Botanist",
+        NpcIdleSound: "",
+        Weapons: [
+            {
+                Slot: 0b,
+                id: 5698s,
+                Count: 1b,
+                tag: {
+                    lens: {
+                        id: 5807s,
+                        Count: 1b,
+                        tag: {
+                            color: 2
+                        },
+                        Damage: 11s
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 5272s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5774s,
+                Count: 1b,
+                tag: {
+                },
+                Damage: 1000s
+            }
+        ],
+        NPCDialogOptions: [
+        ],
+        DirectLOS: 1b,
+        AggroRange: 30,
+        HealthRegen: 1,
+        MoveSpeed: 5,
+        minDelay: 80,
+        DoorInteract: 2,
+        TransformEditingModus: 0b,
+        UsingSkinUrl: 0b,
+        SkinUrl: "",
+        CanSwim: 1b,
+        HideBodyWhenKilled: 0b,
+        MaxHealth: 20,
+        AttackSpeed: 20,
+        PotionDuration: 5,
+        maxDelay: 80,
+        DropChance: [
+            {
+                Integer: 20,
+                Slot: 0
+            },
+            {
+                Integer: 20,
+                Slot: 1
+            },
+            {
+                Integer: 20,
+                Slot: 2
+            },
+            {
+                Integer: 20,
+                Slot: 3
+            },
+            {
+                Integer: 20,
+                Slot: 4
+            },
+            {
+                Integer: 100,
+                Slot: 5
+            },
+            {
+                Integer: 100,
+                Slot: 6
+            },
+            {
+                Integer: 20,
+                Slot: 7
+            },
+            {
+                Integer: 20,
+                Slot: 8
+            }
+        ],
+        Role: 0,
+        FactionPoints: {
+            DecreaseFaction1Points: 0b,
+            OptionFaction2Points: 100,
+            OptionFactions1: -1,
+            OptionFactions2: -1,
+            OptionFaction1Points: 100,
+            DecreaseFaction2Points: 0b
+        },
+        pDamage: 22,
+        AimWhileShooting: 0b,
+        AttackOtherFactions: 0b,
+        CanDrown: 1b,
+        CanSprint: 0b,
+        pSize: 2,
+        CanLeap: 0b,
+        ModelData: {
+            LegsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            BodyConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            LegParts: {
+                Type: 0b,
+                PlayerTexture: 1b,
+                Color: 16777215
+            },
+            Parts: [
+            ],
+            Breasts: 0b,
+            Headwear: 2b,
+            ArmsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            ExtraData: {
+            },
+            HeadConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            }
+        },
+        TransformIsActive: 0b,
+        MovingState: 0,
+        MovingPos: 0,
+        PotionAmp: 0,
+        OnAttack: 0,
+        TacticalRadius: 8,
+        MaxExp: 25,
+        pGlows: 1b,
+        TransformHasAdvanced: 0b,
+        TransformHasStats: 0b,
+        FiringSound: "botania:manaBlaster",
+        Accuracy: 98,
+        MinExp: 25,
+        Armor: [
+            {
+                Slot: 0b,
+                id: 5692s,
+                Count: 1b,
+                tag: {
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 5695s,
+                Count: 1b,
+                tag: {
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 6018s,
+                Count: 1b,
+                tag: {
+                },
+                Damage: 0s
+            }
+        ],
+        CloakTexture: "",
+        GlowTexture: "",
+        pXlr8: 0b,
+        MaxFiringRange: 25,
+        pExplode: 1b,
+        pStick: 0b,
+        NpcDeathSound: "minecraft:game.player.hurt",
+        MovingPause: 1b,
+        FactionID: 2,
+        Title: "",
+        npcInteracting: 1b,
+        ShowName: 1,
+        AvoidsWater: 0b,
+        NoLivingAnimation: 0b,
+        SpawnCycle: 3
+    },
+    LinkedName: "TaintedBotanist"
+}

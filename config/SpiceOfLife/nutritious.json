@@ -1,0 +1,16 @@
+{
+	"food": {
+		"items": [
+			"harvestcraft:snickersbarItem",
+			"Botania:manaCookie"
+		]
+	},
+
+
+	"name": "Nutritious",
+
+
+	"enabled": true,
+
+	"blacklist": true
+}

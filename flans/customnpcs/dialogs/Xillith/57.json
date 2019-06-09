@@ -1,0 +1,114 @@
+{
+    DialogShowWheel: 0b,
+    AvailabilityQuestId: -1,
+    Options: [
+        {
+            OptionSlot: 0,
+            Option: {
+                DialogCommand: "",
+                Dialog: 58,
+                Title: "Empty Space?",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 1,
+            Option: {
+                DialogCommand: "",
+                Dialog: 59,
+                Title: "What is this place?",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 2,
+            Option: {
+                DialogCommand: "",
+                Dialog: 60,
+                Title: "Come with me!",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 3,
+            Option: {
+                DialogCommand: "",
+                Dialog: 61,
+                Title: "Help destroy taint!",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 4,
+            Option: {
+                DialogCommand: "",
+                Dialog: 62,
+                Title: "Can I help you?",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 5,
+            Option: {
+                DialogCommand: "",
+                Dialog: -1,
+                Title: "Nope, Bye!",
+                DialogColor: 14737632,
+                OptionType: 0
+            }
+        }
+    ],
+    DialogHideNPC: 0b,
+    AvailabilityFactionStance: 0,
+    AvailabilityQuest: 0,
+    AvailabilityDialog4: 0,
+    AvailabilityDialog3: 0,
+    AvailabilityQuest2: 0,
+    AvailabilityQuest3: 0,
+    AvailabilityQuest4: 0,
+    ModRev: 16,
+    DecreaseFaction1Points: 0b,
+    DialogQuest: -1,
+    AvailabilityDialog2: 0,
+    OptionFactions1: -1,
+    AvailabilityDayTime: 0,
+    OptionFactions2: -1,
+    AvailabilityFaction2Id: -1,
+    OptionFaction1Points: 100,
+    DialogDisableEsc: 0b,
+    AvailabilityFaction: 0,
+    DialogTitle: "The End",
+    AvailabilityDialog: 0,
+    AvailabilityFaction2: 0,
+    AvailabilityFactionId: -1,
+    AvailabilityFaction2Stance: 0,
+    DialogCommand: "",
+    AvailabilityDialogId: -1,
+    OptionFaction2Points: 100,
+    DialogText: "You don't want to go to the End.Trust me. You know void jars? Thekind that suck up essentia youdon't need? Turns out all theessentia is deposited into the End.After generations of thaumaturgesdumping their magical waste into theend, it's become a highly dangerousplace. There's so much flux thereyou're as likely to explode as totake a single breath.I'm sorry if you were expecting anend portal and found this portalinstead. I repurposed the endportal into a gateway to take meto an artifical pocket dimension.Is there anything else I can helpwith?",
+    AvailabilityQuest4Id: -1,
+    AvailabilityQuest3Id: -1,
+    AvailabilityQuest2Id: -1,
+    AvailabilityDialog2Id: -1,
+    AvailabilityDialog3Id: -1,
+    AvailabilityDialog4Id: -1,
+    AvailabilityMinPlayerLevel: 0,
+    DecreaseFaction2Points: 0b,
+    DialogMail: {
+        Sender: "",
+        BeenRead: 0b,
+        Message: {
+        },
+        MailItems: [
+        ],
+        MailQuest: -1,
+        TimePast: 1439236334928L,
+        Time: 0L,
+        Subject: ""
+    }
+}

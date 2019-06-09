@@ -1,0 +1,93 @@
+{
+    DialogShowWheel: 0b,
+    AvailabilityQuestId: -1,
+    Options: [
+        {
+            OptionSlot: 0,
+            Option: {
+                DialogCommand: "",
+                Dialog: 6,
+                Title: "Any Advice?",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 1,
+            Option: {
+                DialogCommand: "",
+                Dialog: -1,
+                Title: "Okay, Bye!",
+                DialogColor: 14737632,
+                OptionType: 0
+            }
+        }
+    ],
+    DialogHideNPC: 0b,
+    AvailabilityFactionStance: 0,
+    AvailabilityQuest: 0,
+    AvailabilityDialog4: 0,
+    AvailabilityDialog3: 0,
+    AvailabilityQuest2: 0,
+    AvailabilityQuest3: 0,
+    AvailabilityQuest4: 0,
+    ModRev: 16,
+    DecreaseFaction1Points: 0b,
+    DialogQuest: -1,
+    AvailabilityDialog2: 0,
+    OptionFactions1: -1,
+    AvailabilityDayTime: 0,
+    OptionFactions2: -1,
+    AvailabilityFaction2Id: -1,
+    OptionFaction1Points: 100,
+    DialogDisableEsc: 0b,
+    AvailabilityFaction: 0,
+    DialogTitle: "Which one?",
+    AvailabilityDialog: 0,
+    AvailabilityFaction2: 0,
+    AvailabilityFactionId: -1,
+    AvailabilityFaction2Stance: 0,
+    DialogCommand: "",
+    AvailabilityDialogId: -1,
+    OptionFaction2Points: 100,
+    DialogText: "Pod alpha is headed to what used
+to be a fertile grassland. It's
+probably the easiest place to get
+started. Beta heads to the
+savannah, which is only a little
+more difficult. Gamma puts you in a 
+taiga. Delta drops you off in some 
+clay arches. Epsilon puts you in
+the middle of a desert. Omega is by
+far the hardest, dropping you off
+in a bio-dome under the ocean.
+
+If you're alone, go to pod alpha. If
+you're adventuring with others,
+you ought to form teams. Each dome
+has enough arable land to support
+three people or so. If you have
+more than that, you'll have to
+discuss amongst yourselves who
+gets which pod.",
+    AvailabilityQuest4Id: -1,
+    AvailabilityQuest3Id: -1,
+    AvailabilityQuest2Id: -1,
+    AvailabilityDialog2Id: -1,
+    AvailabilityDialog3Id: -1,
+    AvailabilityDialog4Id: -1,
+    AvailabilityMinPlayerLevel: 0,
+    DecreaseFaction2Points: 0b,
+    DialogMail: {
+        Sender: "",
+        BeenRead: 0b,
+        Message: {
+        },
+        MailItems: [
+        ],
+        MailQuest: -1,
+        TimePast: 1432658161349L,
+        Time: 0L,
+        Subject: ""
+    }
+}

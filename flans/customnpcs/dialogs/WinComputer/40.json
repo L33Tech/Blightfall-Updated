@@ -1,0 +1,109 @@
+{
+    DialogShowWheel: 0b,
+    AvailabilityQuestId: 1,
+    Options: [
+        {
+            OptionSlot: 0,
+            Option: {
+                DialogCommand: "",
+                Dialog: 43,
+                Title: "The Plains.",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 1,
+            Option: {
+                DialogCommand: "",
+                Dialog: 44,
+                Title: "The Desert",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 2,
+            Option: {
+                DialogCommand: "",
+                Dialog: 45,
+                Title: "The Bay.",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 3,
+            Option: {
+                DialogCommand: "",
+                Dialog: 41,
+                Title: "...more specific?",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        },
+        {
+            OptionSlot: 4,
+            Option: {
+                DialogCommand: "",
+                Dialog: 42,
+                Title: "Hold on, let me think.",
+                DialogColor: 14737632,
+                OptionType: 1
+            }
+        }
+    ],
+    DialogHideNPC: 0b,
+    AvailabilityFactionStance: 0,
+    AvailabilityQuest: 1,
+    AvailabilityDialog4: 0,
+    AvailabilityDialog3: 0,
+    AvailabilityQuest2: 0,
+    AvailabilityQuest3: 0,
+    AvailabilityQuest4: 0,
+    ModRev: 16,
+    DecreaseFaction1Points: 0b,
+    DialogQuest: -1,
+    AvailabilityDialog2: 0,
+    OptionFactions1: -1,
+    AvailabilityDayTime: 0,
+    OptionFactions2: -1,
+    AvailabilityFaction2Id: -1,
+    OptionFaction1Points: 100,
+    DialogDisableEsc: 0b,
+    AvailabilityFaction: 0,
+    DialogTitle: "Wind",
+    AvailabilityDialog: 0,
+    AvailabilityFaction2: 0,
+    DialogSound: "botania:ding",
+    AvailabilityFactionId: -1,
+    AvailabilityFaction2Stance: 0,
+    DialogCommand: "",
+    AvailabilityDialogId: -1,
+    OptionFaction2Points: 100,
+    DialogText: "There are three places we could drop the colony pod. It requires a lot of room, so we want to check with you before we commence.
+The first location is north of biodome alpha, on the grasslands between the biodome and the forest.
+The second location is on the border between the desert and thearches biomes in a flat area there.
+If you have already built things in those areas and do not want your structures to be destroyed, we could always use anti-grav thrusters to put it as a floating city in the sky over the swamp bay.Where would you like the pod to drop?
+",
+    AvailabilityQuest4Id: -1,
+    AvailabilityQuest3Id: -1,
+    AvailabilityQuest2Id: -1,
+    AvailabilityDialog2Id: -1,
+    AvailabilityDialog3Id: -1,
+    AvailabilityDialog4Id: -1,
+    AvailabilityMinPlayerLevel: 0,
+    DecreaseFaction2Points: 0b,
+    DialogMail: {
+        Sender: "",
+        BeenRead: 0b,
+        Message: {
+        },
+        MailItems: [
+        ],
+        MailQuest: -1,
+        TimePast: 1437700859026L,
+        Time: 0L,
+        Subject: ""
+    }
+}

@@ -1,0 +1,357 @@
+{
+    NPCData: {
+        ReturnToStart: 1b,
+        NpcInv: [
+            {
+                Slot: 0b,
+                id: 5352s,
+                Count: 1b,
+                Damage: 100s
+            },
+            {
+                Slot: 1b,
+                id: 5399s,
+                Count: 1b,
+                Damage: 100s
+            },
+            {
+                Slot: 2b,
+                id: 5305s,
+                Count: 1b,
+                Damage: 100s
+            },
+            {
+                Slot: 3b,
+                id: 373s,
+                Count: 1b,
+                Damage: 16394s
+            },
+            {
+                Slot: 4b,
+                id: 4138s,
+                Count: 1b,
+                Damage: 11s
+            },
+            {
+                Slot: 5b,
+                id: 4138s,
+                Count: 1b,
+                Damage: 12s
+            },
+            {
+                Slot: 6b,
+                id: 4138s,
+                Count: 2b,
+                Damage: 2s
+            },
+            {
+                Slot: 7b,
+                id: 33s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 33s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ],
+        PotionEffect: 8,
+        Size: 5,
+        stopAndInteract: 1b,
+        Resistances: {
+            Arrow: 1.6478873f,
+            Explosion: 1.0f,
+            Knockback: 1.0f,
+            Melee: 1.6478873f
+        },
+        BossBar: 0b,
+        RespawnTime: 0,
+        NpcAngrySound: "",
+        ReactsToFire: 0b,
+        IgnoreCobweb: 0b,
+        PositionOffsetZ: 5.0f,
+        PositionOffsetY: 5.0f,
+        PositionOffsetX: 5.0f,
+        TransformHasAI: 0b,
+        AttackStrenght: 6,
+        MovingPatern: 0,
+        NpcLines: {
+            Lines: [
+            ]
+        },
+        DefendFaction: 0b,
+        FireIndirect: 0,
+        NpcVisible: 0,
+        FindShelter: 2,
+        SkinUsername: {
+            Id: "335b48ca-3ef2-4597-a7b3-d8836bad71df",
+            Properties: {
+                textures: [
+                    {
+                        Signature: "eecLS+v8b0KNOeF24wPthpR3XJT29qM9zckNc/6XP389TWpMTS+DJaYTB6V6tsX5X6whdxP+gZYHz0dPO4jkI1bFsD0G1figRCuxIVaJxhReyHGsBJSkwNTxP/45VRRIXtQHc0jT4U+gI3pINT92jK/qTILvQTFaH/1Iwb3UChJuAOkZfEmd1eVrusxVONHdOR4MbQE0GUq/Tud+46r6LkST1YcoTAH0AB4Y3MJciFQ6PvX53N3v9M95MtPiQFli7IDqC5zLai1z6iJN2CSeRiC9wGYfh37BjWzs9pMCC4Qyzbo3ypPfy4Qt3Kl6GNWiqbPpp+VRTmt7UX7y3gSAVHWRePTXeIEBJxSvlTCzWsgB3jX3Bae1VW6hJgTN425RiFwjj4XSNAqgQvutBynIgyIi6svaRs6RzdkVC/+cTymZuqAL0SSiYYyE/+8+PkzSo+ldCPg3atT34qOs4VwrUJTkXe2HGOXTu6QDaD8lBj7amY2e6qobkFTzUf3MSNJq7CQR5RdjR49c0djoV2UJi5oQfkESnjVu5yleSX9s+IvxKmzKVvqmE14lpXCXKJGXwRBncNyM2WMLbfH0mJQ+teqSfGVo6R+uZr8NsTVi8lqLnFpX9KUKnM8kUIGCn27K4+v8f1LR2wfrWnxkBQHy87OAJ/gdKLJ5B7S/xAK+5xI=",
+                        Value: "eyJ0aW1lc3RhbXAiOjE0MzkyMzIxNTAwNTgsInByb2ZpbGVJZCI6IjMzNWI0OGNhM2VmMjQ1OTdhN2IzZDg4MzZiYWQ3MWRmIiwicHJvZmlsZU5hbWUiOiJYaWxsaXRoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMGZhYzljNmUwNmFhZTU4NGZiNzQ5ZjZmNWMwZDkyNzczYjZmNWMzMzM3ZWRkZTBkYjdjYjkxZWY1OTQ0ZjMzIn19fQ=="
+                    }
+                ]
+            },
+            Name: "Xillith"
+        },
+        TacticalVariant: 0,
+        Orientation: 0,
+        KnockBack: 3,
+        TransformHasJob: 0b,
+        CanDespawn: 0b,
+        BurnInSun: 0b,
+        StandingState: 0,
+        AttackInvisible: 0b,
+        WalkingRange: 6,
+        ShotCount: 3,
+        pDur: 45,
+        StartPosNew: [-940,149,-1035],
+        AttackRange: 2,
+        NpcKillLines: {
+            Lines: [
+            ]
+        },
+        PotionImmune: 1b,
+        AvoidsSun: 0b,
+        Texture: "playerzombiemod:textures/entity/steve_tainted.png",
+        NpcJob: 0,
+        BurstCount: 1,
+        NpcAttackLines: {
+            Lines: [
+            ]
+        },
+        pSpeed: 10,
+        pArea: 0,
+        pImpact: 0,
+        MoveState: 0,
+        RangeAndMelee: 1,
+        pRender3D: 0b,
+        CombatRegen: 0,
+        pEffect: 5,
+        DistanceToMelee: 5,
+        NpcStepSound: "",
+        FireRate: 5,
+        pEffAmp: 1,
+        ImmuneToFire: 0b,
+        NpcKilledLines: {
+            Lines: [
+            ]
+        },
+        DisablePitch: 0b,
+        pPhysics: 1b,
+        TransformHasInv: 0b,
+        NpcInteractLines: {
+            Lines: [
+                {
+                    Line: "Hello @p",
+                    Song: "",
+                    Slot: 0
+                }
+            ]
+        },
+        pSpin: 0b,
+        NpcHurtSound: "minecraft:game.player.hurt",
+        pTrail: 1,
+        CreatureType: 0,
+        TransformHasDisplay: 0b,
+        NoFallDamage: 0b,
+        TransformHasRole: 0b,
+        Name: "Tainted Alchemist",
+        Weapons: [
+            {
+                Slot: 0b,
+                id: 373s,
+                Count: 1b,
+                Damage: 16456s
+            },
+            {
+                Slot: 1b,
+                id: 373s,
+                Count: 1b,
+                Damage: 16394s
+            },
+            {
+                Slot: 2b,
+                id: 373s,
+                Count: 1b,
+                Damage: 16420s
+            }
+        ],
+        NpcIdleSound: "",
+        NPCDialogOptions: [
+        ],
+        AggroRange: 30,
+        DirectLOS: 1b,
+        HealthRegen: 1,
+        minDelay: 20,
+        DoorInteract: 1,
+        MoveSpeed: 6,
+        TransformEditingModus: 0b,
+        UsingSkinUrl: 0b,
+        SkinUrl: "",
+        CanSwim: 1b,
+        MaxHealth: 26,
+        HideBodyWhenKilled: 0b,
+        AttackSpeed: 40,
+        PotionDuration: 8,
+        DropChance: [
+            {
+                Integer: 20,
+                Slot: 0
+            },
+            {
+                Integer: 20,
+                Slot: 1
+            },
+            {
+                Integer: 20,
+                Slot: 2
+            },
+            {
+                Integer: 100,
+                Slot: 3
+            },
+            {
+                Integer: 100,
+                Slot: 4
+            },
+            {
+                Integer: 100,
+                Slot: 5
+            },
+            {
+                Integer: 25,
+                Slot: 6
+            },
+            {
+                Integer: 20,
+                Slot: 7
+            },
+            {
+                Integer: 20,
+                Slot: 8
+            }
+        ],
+        maxDelay: 40,
+        Role: 0,
+        FactionPoints: {
+            DecreaseFaction1Points: 0b,
+            OptionFaction2Points: 100,
+            OptionFactions1: -1,
+            OptionFactions2: -1,
+            OptionFaction1Points: 100,
+            DecreaseFaction2Points: 0b
+        },
+        pDamage: 5,
+        AimWhileShooting: 0b,
+        AttackOtherFactions: 0b,
+        CanDrown: 1b,
+        pSize: 5,
+        CanSprint: 0b,
+        CanLeap: 0b,
+        TransformIsActive: 0b,
+        ModelData: {
+            LegsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            BodyConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            EntityClass: "thaumcraft.common.entities.monster.EntityTaintVillager",
+            LegParts: {
+                Type: 0b,
+                PlayerTexture: 1b,
+                Color: 16777215
+            },
+            Parts: [
+            ],
+            Breasts: 0b,
+            Headwear: 2b,
+            ArmsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            ExtraData: {
+            },
+            HeadConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            }
+        },
+        MovingState: 1,
+        MovingPos: 0,
+        PotionAmp: 0,
+        OnAttack: 0,
+        TacticalRadius: 8,
+        MaxExp: 25,
+        pGlows: 1b,
+        TransformHasAdvanced: 0b,
+        TransformHasStats: 0b,
+        FiringSound: "minecraft:random.bow",
+        Accuracy: 50,
+        MinExp: 15,
+        Armor: [
+            {
+                Slot: 0b,
+                id: 5305s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 4196s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5399s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 5352s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ],
+        CloakTexture: "",
+        GlowTexture: "",
+        MaxFiringRange: 25,
+        pXlr8: 0b,
+        pExplode: 1b,
+        pStick: 0b,
+        MovingPause: 1b,
+        NpcDeathSound: "minecraft:game.player.hurt",
+        FactionID: 2,
+        Title: "",
+        ShowName: 1,
+        npcInteracting: 0b,
+        AvoidsWater: 0b,
+        NoLivingAnimation: 0b,
+        SpawnCycle: 3
+    },
+    LinkedName: "TaintedAlchemist"
+}

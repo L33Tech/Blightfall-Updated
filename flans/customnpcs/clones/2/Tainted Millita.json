@@ -1,0 +1,456 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+        {
+            Slot: 0b,
+            id: 4545s,
+            Count: 1b,
+            Damage: 1s
+        },
+        {
+            Slot: 1b,
+            id: 5476s,
+            Count: 1b,
+            Damage: 2s
+        },
+        {
+            Slot: 2b,
+            id: 5476s,
+            Count: 1b,
+            Damage: 2s
+        },
+        {
+            Slot: 3b,
+            id: 298s,
+            Count: 1b,
+            tag: {
+                display: {
+                    color: 10862540
+                }
+            },
+            Damage: 40s
+        },
+        {
+            Slot: 4b,
+            id: 303s,
+            Count: 1b,
+            Damage: 175s
+        },
+        {
+            Slot: 5b,
+            id: 4625s,
+            Count: 1b,
+            Damage: 200s
+        },
+        {
+            Slot: 6b,
+            id: 5300s,
+            Count: 5b,
+            Damage: 0s
+        },
+        {
+            Slot: 7b,
+            id: 4138s,
+            Count: 1b,
+            Damage: 11s
+        },
+        {
+            Slot: 8b,
+            id: 4138s,
+            Count: 2b,
+            Damage: 12s
+        }
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 1b,
+    Resistances: {
+        Arrow: 1.0f,
+        Explosion: 1.0f,
+        Knockback: 1.0f,
+        Melee: 1.0f
+    },
+    BossBar: 0b,
+    RespawnTime: 0,
+    NpcAngrySound: "",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 3,
+    PersistenceRequired: 0b,
+    id: "CustomNpc",
+    HealF: 20.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    DefendFaction: 0b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "TaintedMillitia",
+    FindShelter: 2,
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+        ]
+    },
+    PotionImmune: 1b,
+    AvoidsSun: 0b,
+    Texture: "playerzombiemod:textures/entity/steve_tainted.png",
+    NpcJob: 0,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 10,
+    pArea: 3,
+    DeathTime: 0s,
+    pImpact: 0,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 5,
+    RangeAndMelee: 0,
+    pRender3D: 0b,
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 0,
+    pEffect: 0,
+    DistanceToMelee: 4,
+    NpcStepSound: "",
+    FireRate: 5,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    UUIDMost: 6755296646229937269L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Hello @p",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 20.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.25d,
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 32.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 3.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "Tainted Millita",
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: 5475s,
+            Count: 1b,
+            tag: {
+                InfiTool: {
+                    RenderExtra: 2,
+                    BaseDurability: 495,
+                    BaseAttack: 4,
+                    DrawSpeed: 97,
+                    ToolEXP: 0L,
+                    Built: 1b,
+                    HarvestLevel: 3,
+                    RenderHead: 2,
+                    ModDurability: 0.0f,
+                    Shoddy: 0.0f,
+                    RenderHandle: 0,
+                    Accessory: 2,
+                    MiningSpeed: 600,
+                    Unbreaking: 1,
+                    Damage: 0,
+                    HarvestLevel2: 3,
+                    BonusDurability: 0,
+                    TotalDurability: 495,
+                    MiningSpeed2: 600,
+                    BaseDrawSpeed: 97,
+                    Head: 2,
+                    Attack: 4,
+                    Handle: 0,
+                    Broken: 0b,
+                    Extra: 2,
+                    RenderAccessory: 2,
+                    FlightSpeed: 7.7999997f,
+                    ToolLevel: 1,
+                    Modifiers: 0
+                },
+                display: {
+                    Name: "§fIron Longbow"
+                }
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: 262s,
+            Count: 64b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 48,
+    DirectLOS: 1b,
+    HealthRegen: 1,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 120,
+    DoorInteract: 1,
+    MoveSpeed: 5,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    MaxHealth: 20,
+    HideBodyWhenKilled: 0b,
+    AttackSpeed: 20,
+    PotionDuration: 5,
+    maxDelay: 140,
+    ScriptEnabled: 0b,
+    Role: 0,
+    DropChance: [
+        {
+            Integer: 11,
+            Slot: 0
+        },
+        {
+            Integer: 10,
+            Slot: 1
+        },
+        {
+            Integer: 10,
+            Slot: 2
+        },
+        {
+            Integer: 15,
+            Slot: 3
+        },
+        {
+            Integer: 15,
+            Slot: 4
+        },
+        {
+            Integer: 15,
+            Slot: 5
+        },
+        {
+            Integer: 30,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 70,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 8,
+    KilledTime: 0L,
+    AimWhileShooting: 1b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 0b,
+    CanDrown: 1b,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    ForgeData: {
+        HungerOverhaulCheck: 3
+    },
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 14,
+    PortalCooldown: 0,
+    pGlows: 0b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "random.bow",
+    ModRev: 16,
+    Accuracy: 90,
+    MinExp: 11,
+    Armor: [
+        {
+            Slot: 0b,
+            id: 298s,
+            Count: 1b,
+            tag: {
+                display: {
+                    color: 10862540
+                }
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: 303s,
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 3b,
+            id: 4625s,
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 48,
+    pXlr8: 0b,
+    UUIDLeast: -8973110640601561791L,
+    Health: 20s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 2,
+    Title: "",
+    TotalTicksAlive: 5288L,
+    Rotation: [
+        -331.64615f,
+        0.0f
+    ],
+    ShowName: 1,
+    npcInteracting: 1b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    SpawnCycle: 3
+}

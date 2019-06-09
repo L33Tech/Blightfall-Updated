@@ -1,0 +1,423 @@
+{
+    NPCData: {
+        ReturnToStart: 1b,
+        NpcInv: [
+            {
+                Slot: 0b,
+                id: 5399s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 1b,
+                id: 4603s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 4156s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 4139s,
+                Count: 7b,
+                Damage: 4s
+            },
+            {
+                Slot: 4b,
+                id: 4139s,
+                Count: 5b,
+                Damage: 6s
+            },
+            {
+                Slot: 5b,
+                id: 4131s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 6b,
+                id: 5637s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 7b,
+                id: 4125s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 4121s,
+                Count: 1b,
+                tag: {
+                    cap: "void",
+                    rod: "quartz_staff",
+                    AttributeModifiers: [
+                        {
+                            UUIDMost: -3801225194067177672L,
+                            UUIDLeast: -6586624321849018929L,
+                            Amount: 6.0d,
+                            AttributeName: "generic.attackDamage",
+                            Operation: 0,
+                            Name: "Weapon modifier"
+                        }
+                    ]
+                },
+                Damage: 126s
+            }
+        ],
+        PotionEffect: 4,
+        Size: 5,
+        stopAndInteract: 1b,
+        Resistances: {
+            Arrow: 1.3098592f,
+            Explosion: 1.4084507f,
+            Knockback: 1.3098592f,
+            Melee: 1.3098592f
+        },
+        BossBar: 2b,
+        RespawnTime: 0,
+        NpcAngrySound: "",
+        ReactsToFire: 0b,
+        IgnoreCobweb: 0b,
+        PositionOffsetZ: 5.0f,
+        PositionOffsetY: 5.0f,
+        PositionOffsetX: 5.0f,
+        TransformHasAI: 0b,
+        AttackStrenght: 3,
+        MovingPatern: 0,
+        NpcLines: {
+            Lines: [
+            ]
+        },
+        DefendFaction: 0b,
+        FireIndirect: 0,
+        NpcVisible: 0,
+        FindShelter: 2,
+        SkinUsername: {
+            Id: "335b48ca-3ef2-4597-a7b3-d8836bad71df",
+            Properties: {
+                textures: [
+                    {
+                        Signature: "eecLS+v8b0KNOeF24wPthpR3XJT29qM9zckNc/6XP389TWpMTS+DJaYTB6V6tsX5X6whdxP+gZYHz0dPO4jkI1bFsD0G1figRCuxIVaJxhReyHGsBJSkwNTxP/45VRRIXtQHc0jT4U+gI3pINT92jK/qTILvQTFaH/1Iwb3UChJuAOkZfEmd1eVrusxVONHdOR4MbQE0GUq/Tud+46r6LkST1YcoTAH0AB4Y3MJciFQ6PvX53N3v9M95MtPiQFli7IDqC5zLai1z6iJN2CSeRiC9wGYfh37BjWzs9pMCC4Qyzbo3ypPfy4Qt3Kl6GNWiqbPpp+VRTmt7UX7y3gSAVHWRePTXeIEBJxSvlTCzWsgB3jX3Bae1VW6hJgTN425RiFwjj4XSNAqgQvutBynIgyIi6svaRs6RzdkVC/+cTymZuqAL0SSiYYyE/+8+PkzSo+ldCPg3atT34qOs4VwrUJTkXe2HGOXTu6QDaD8lBj7amY2e6qobkFTzUf3MSNJq7CQR5RdjR49c0djoV2UJi5oQfkESnjVu5yleSX9s+IvxKmzKVvqmE14lpXCXKJGXwRBncNyM2WMLbfH0mJQ+teqSfGVo6R+uZr8NsTVi8lqLnFpX9KUKnM8kUIGCn27K4+v8f1LR2wfrWnxkBQHy87OAJ/gdKLJ5B7S/xAK+5xI=",
+                        Value: "eyJ0aW1lc3RhbXAiOjE0MzkyMzIxNTAwNTgsInByb2ZpbGVJZCI6IjMzNWI0OGNhM2VmMjQ1OTdhN2IzZDg4MzZiYWQ3MWRmIiwicHJvZmlsZU5hbWUiOiJYaWxsaXRoIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMGZhYzljNmUwNmFhZTU4NGZiNzQ5ZjZmNWMwZDkyNzczYjZmNWMzMzM3ZWRkZTBkYjdjYjkxZWY1OTQ0ZjMzIn19fQ=="
+                    }
+                ]
+            },
+            Name: "Xillith"
+        },
+        TacticalVariant: 1,
+        Orientation: 0,
+        KnockBack: 2,
+        TransformHasJob: 0b,
+        CanDespawn: 0b,
+        BurnInSun: 0b,
+        StandingState: 0,
+        AttackInvisible: 0b,
+        WalkingRange: 5,
+        ShotCount: 3,
+        pDur: 5,
+        StartPosNew: [-940,149,-1035],
+        AttackRange: 2,
+        NpcKillLines: {
+            Lines: [
+                {
+                    Line: "What a shame.",
+                    Song: "",
+                    Slot: 0
+                }
+            ]
+        },
+        PotionImmune: 1b,
+        AvoidsSun: 0b,
+        Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+        NpcJob: 4,
+        BurstCount: 3,
+        NpcAttackLines: {
+            Lines: [
+                {
+                    Line: "That was foolish.",
+                    Song: "thaumcraft:chant",
+                    Slot: 0
+                },
+                {
+                    Line: "I am an archmage!",
+                    Song: "thaumcraft:chant",
+                    Slot: 1
+                }
+            ]
+        },
+        pSpeed: 10,
+        pArea: 0,
+        pImpact: 0,
+        MoveState: 0,
+        RangeAndMelee: 0,
+        pRender3D: 0b,
+        CombatRegen: 1,
+        pEffect: 1,
+        DistanceToMelee: 4,
+        NpcStepSound: "",
+        FireRate: 5,
+        pEffAmp: 0,
+        ImmuneToFire: 1b,
+        NpcKilledLines: {
+            Lines: [
+                {
+                    Line: "Penance... at last...",
+                    Song: "thaumcraft:egdeath",
+                    Slot: 0
+                }
+            ]
+        },
+        DisablePitch: 0b,
+        pPhysics: 0b,
+        TransformHasInv: 0b,
+        NpcInteractLines: {
+            Lines: [
+                {
+                    Line: "Hello @p",
+                    Song: "",
+                    Slot: 0
+                }
+            ]
+        },
+        pSpin: 0b,
+        NpcHurtSound: "minecraft:game.player.hurt",
+        pTrail: 1,
+        CreatureType: 0,
+        TransformHasDisplay: 0b,
+        NoFallDamage: 0b,
+        TransformHasRole: 0b,
+        Name: "Archmage Xillith",
+        Weapons: [
+            {
+                Slot: 0b,
+                id: 4121s,
+                Count: 1b,
+                tag: {
+                    cap: "void",
+                    rod: "quartz_staff",
+                    ordo: 1400,
+                    AttributeModifiers: [
+                        {
+                            UUIDMost: -3801225194067177672L,
+                            UUIDLeast: -6586624321849018929L,
+                            Amount: 6.0d,
+                            AttributeName: "generic.attackDamage",
+                            Operation: 0,
+                            Name: "Weapon modifier"
+                        }
+                    ]
+                },
+                Damage: 126s
+            },
+            {
+                Slot: 1b,
+                id: 4125s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ],
+        NpcIdleSound: "",
+        NPCDialogOptions: [
+            {
+                NPCDialog: {
+                    DialogCommand: "",
+                    Dialog: 63,
+                    Title: "Hello again",
+                    DialogColor: 14737632,
+                    OptionType: 2
+                },
+                DialogSlot: 0
+            },
+            {
+                NPCDialog: {
+                    DialogCommand: "",
+                    Dialog: 51,
+                    Title: "Hello First",
+                    DialogColor: 14737632,
+                    OptionType: 2
+                },
+                DialogSlot: 1
+            },
+            {
+                NPCDialog: {
+                    DialogCommand: "",
+                    Dialog: 50,
+                    Title: "Quest",
+                    DialogColor: 14737632,
+                    OptionType: 2
+                },
+                DialogSlot: 2
+            }
+        ],
+        AggroRange: 30,
+        DirectLOS: 1b,
+        HealthRegen: 1,
+        minDelay: 20,
+        DoorInteract: 2,
+        MoveSpeed: 6,
+        TransformEditingModus: 0b,
+        UsingSkinUrl: 1b,
+        SkinUrl: "",
+        CanSwim: 1b,
+        MaxHealth: 60,
+        HideBodyWhenKilled: 0b,
+        AttackSpeed: 20,
+        PotionDuration: 5,
+        DropChance: [
+            {
+                Integer: 100,
+                Slot: 0
+            },
+            {
+                Integer: 100,
+                Slot: 1
+            },
+            {
+                Integer: 100,
+                Slot: 2
+            },
+            {
+                Integer: 100,
+                Slot: 3
+            },
+            {
+                Integer: 100,
+                Slot: 4
+            },
+            {
+                Integer: 100,
+                Slot: 5
+            },
+            {
+                Integer: 100,
+                Slot: 6
+            },
+            {
+                Integer: 100,
+                Slot: 7
+            },
+            {
+                Integer: 100,
+                Slot: 8
+            }
+        ],
+        maxDelay: 40,
+        Role: 0,
+        FactionPoints: {
+            DecreaseFaction1Points: 0b,
+            OptionFaction2Points: 100,
+            OptionFactions1: -1,
+            OptionFactions2: -1,
+            OptionFaction1Points: 100,
+            DecreaseFaction2Points: 0b
+        },
+        pDamage: 6,
+        AimWhileShooting: 0b,
+        AttackOtherFactions: 0b,
+        CanDrown: 1b,
+        pSize: 5,
+        CanSprint: 0b,
+        CanLeap: 0b,
+        TransformIsActive: 0b,
+        ModelData: {
+            LegsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            BodyConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            LegParts: {
+                Type: 0b,
+                PlayerTexture: 1b,
+                Color: 16777215
+            },
+            Parts: [
+            ],
+            Breasts: 0b,
+            Headwear: 2b,
+            ArmsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            ExtraData: {
+            },
+            HeadConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            }
+        },
+        MovingState: 0,
+        MovingPos: 0,
+        PotionAmp: 0,
+        OnAttack: 0,
+        TacticalRadius: 8,
+        MaxExp: 0,
+        pGlows: 1b,
+        TransformHasAdvanced: 0b,
+        TransformHasStats: 0b,
+        FiringSound: "thaumcraft:egattack",
+        Accuracy: 20,
+        MinExp: 0,
+        Armor: [
+            {
+                Slot: 1b,
+                id: 4603s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5399s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 3b,
+                id: 4156s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ],
+        CloakTexture: "customnpcs:textures/cloak/RaggedDarkBrownCloak.png",
+        GlowTexture: "",
+        MaxFiringRange: 15,
+        pXlr8: 0b,
+        pExplode: 0b,
+        pStick: 0b,
+        MovingPause: 1b,
+        NpcDeathSound: "minecraft:game.player.hurt",
+        FactionID: 0,
+        Title: "Right click to talk",
+        ShowName: 0,
+        npcInteracting: 1b,
+        AvoidsWater: 0b,
+        NoLivingAnimation: 0b,
+        SpawnCycle: 3
+    },
+    LinkedName: "Xillith"
+}

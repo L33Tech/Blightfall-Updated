@@ -1,0 +1,508 @@
+{
+    NPCData: {
+        ReturnToStart: 1b,
+        NpcInv: [
+            {
+                Slot: 0b,
+                id: 4776s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 2s,
+                            id: 20s
+                        },
+                        {
+                            lvl: 5s,
+                            id: 18s
+                        },
+                        {
+                            lvl: 2s,
+                            id: 19s
+                        }
+                    ]
+                },
+                Damage: 42s
+            },
+            {
+                Slot: 1b,
+                id: 4777s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 3s,
+                            id: 0s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 34s
+                        }
+                    ]
+                },
+                Damage: 335s
+            },
+            {
+                Slot: 2b,
+                id: 4697s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 1s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 34s
+                        }
+                    ]
+                },
+                Damage: 103s
+            },
+            {
+                Slot: 3b,
+                id: 4779s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 0s
+                        }
+                    ]
+                },
+                Damage: 450s
+            },
+            {
+                Slot: 4b,
+                id: 4156s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 4s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 153s
+                        }
+                    ]
+                },
+                Damage: 280s
+            },
+            {
+                Slot: 5b,
+                id: 4138s,
+                Count: 3b,
+                Damage: 12s
+            },
+            {
+                Slot: 6b,
+                id: 4551s,
+                Count: 2b,
+                Damage: 6s
+            },
+            {
+                Slot: 7b,
+                id: 5478s,
+                Count: 1b,
+                tag: {
+                    InfiTool: {
+                        RenderExtra: 126,
+                        BaseDurability: 2445,
+                        BaseAttack: 4,
+                        ToolEXP: 252,
+                        Built: 1b,
+                        Effect1: 11,
+                        HarvestLevel: 8,
+                        ExtraLuckLooting: 1473,
+                        ModifierTip1: "§fQuartz (24/48)",
+                        HarvestLevelExtra: 6,
+                        RenderHead: 120,
+                        ModDurability: 0.0f,
+                        MiningSpeedExtra: 720,
+                        Shoddy: 0.0f,
+                        RenderHandle: 113,
+                        Accessory: 123,
+                        MiningSpeed: 1200,
+                        Unbreaking: 0,
+                        MiningSpeedHandle: 200,
+                        Damage: 0,
+                        HarvestLevel2: 7,
+                        BonusDurability: 0,
+                        TotalDurability: 2445,
+                        MiningSpeed2: 1400,
+                        ModAttack: [24,48,1],
+                        Head: 120,
+                        HarvestLevelHandle: 8,
+                        Tooltip1: "§fSharpness",
+                        Attack: 8,
+                        Handle: 113,
+                        Broken: 0b,
+                        Ammo: 125,
+                        Extra: 126,
+                        RenderAccessory: 123,
+                        ToolLevel: 2,
+                        RepairCount: 14,
+                        Modifiers: 1
+                    },
+                    display: {
+                        Name: "§rAtlarus Shuriken"
+                    }
+                },
+                Damage: 0s
+            },
+            {
+                Slot: 8b,
+                id: 4551s,
+                Count: 2b,
+                Damage: 2s
+            }
+        ],
+        PotionEffect: 1,
+        stopAndInteract: 0b,
+        Size: 5,
+        Resistances: {
+            Arrow: 1.887324f,
+            Explosion: 1.2394366f,
+            Melee: 1.7887324f,
+            Knockback: 1.2394366f
+        },
+        BossBar: 2b,
+        RespawnTime: 20,
+        NpcAngrySound: "",
+        ReactsToFire: 0b,
+        IgnoreCobweb: 0b,
+        PositionOffsetZ: 5.0f,
+        PositionOffsetY: 5.0f,
+        PositionOffsetX: 5.0f,
+        TransformHasAI: 0b,
+        AttackStrenght: 9,
+        NpcLines: {
+            Lines: [
+            ]
+        },
+        MovingPatern: 0,
+        DefendFaction: 0b,
+        FireIndirect: 0,
+        NpcVisible: 0,
+        FindShelter: 2,
+        TacticalVariant: 2,
+        Orientation: 0,
+        KnockBack: 2,
+        TransformHasJob: 0b,
+        CanDespawn: 0b,
+        BurnInSun: 0b,
+        StandingState: 0,
+        AttackInvisible: 0b,
+        WalkingRange: 3,
+        ShotCount: 8,
+        pDur: 5,
+        StartPosNew: [-1015,143,985],
+        AttackRange: 2,
+        NpcKillLines: {
+            Lines: [
+            ]
+        },
+        PotionImmune: 1b,
+        AvoidsSun: 0b,
+        Texture: "playerzombiemod:textures/entity/steve_tainted.png",
+        NpcJob: 0,
+        BurstCount: 1,
+        NpcAttackLines: {
+            Lines: [
+            ]
+        },
+        pSpeed: 10,
+        pArea: 0,
+        pImpact: 0,
+        MoveState: 0,
+        RangeAndMelee: 2,
+        pRender3D: 1b,
+        CombatRegen: 0,
+        DistanceToMelee: 2,
+        pEffect: 0,
+        NpcStepSound: "",
+        FireRate: 5,
+        pEffAmp: 0,
+        ImmuneToFire: 1b,
+        NpcKilledLines: {
+            Lines: [
+            ]
+        },
+        DisablePitch: 0b,
+        pPhysics: 1b,
+        TransformHasInv: 0b,
+        NpcInteractLines: {
+            Lines: [
+                {
+                    Line: "Hello @p",
+                    Song: "",
+                    Slot: 0
+                }
+            ]
+        },
+        pSpin: 1b,
+        NpcHurtSound: "minecraft:game.player.hurt",
+        pTrail: 3,
+        CreatureType: 0,
+        TransformHasDisplay: 0b,
+        NoFallDamage: 0b,
+        TransformHasRole: 0b,
+        Name: "Tainted Hero",
+        NpcIdleSound: "",
+        Weapons: [
+            {
+                Slot: 0b,
+                id: 4776s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 2s,
+                            id: 20s
+                        },
+                        {
+                            lvl: 5s,
+                            id: 18s
+                        },
+                        {
+                            lvl: 2s,
+                            id: 19s
+                        }
+                    ]
+                },
+                Damage: 42s
+            },
+            {
+                Slot: 1b,
+                id: 5336s,
+                Count: 1b,
+                Damage: 0s
+            },
+            {
+                Slot: 2b,
+                id: 5428s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ],
+        NPCDialogOptions: [
+        ],
+        DirectLOS: 1b,
+        AggroRange: 30,
+        HealthRegen: 1,
+        MoveSpeed: 7,
+        minDelay: 100,
+        DoorInteract: 2,
+        TransformEditingModus: 0b,
+        UsingSkinUrl: 0b,
+        SkinUrl: "",
+        CanSwim: 1b,
+        HideBodyWhenKilled: 0b,
+        MaxHealth: 40,
+        AttackSpeed: 60,
+        PotionDuration: 5,
+        maxDelay: 200,
+        DropChance: [
+            {
+                Integer: 15,
+                Slot: 0
+            },
+            {
+                Integer: 30,
+                Slot: 1
+            },
+            {
+                Integer: 30,
+                Slot: 2
+            },
+            {
+                Integer: 30,
+                Slot: 3
+            },
+            {
+                Integer: 100,
+                Slot: 4
+            },
+            {
+                Integer: 100,
+                Slot: 5
+            },
+            {
+                Integer: 100,
+                Slot: 6
+            },
+            {
+                Integer: 30,
+                Slot: 7
+            },
+            {
+                Integer: 30,
+                Slot: 8
+            }
+        ],
+        Role: 0,
+        FactionPoints: {
+            DecreaseFaction1Points: 0b,
+            OptionFaction2Points: 100,
+            OptionFactions1: -1,
+            OptionFactions2: -1,
+            OptionFaction1Points: 100,
+            DecreaseFaction2Points: 0b
+        },
+        pDamage: 5,
+        AimWhileShooting: 0b,
+        AttackOtherFactions: 0b,
+        CanDrown: 1b,
+        CanSprint: 0b,
+        pSize: 5,
+        CanLeap: 1b,
+        ModelData: {
+            LegsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            BodyConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            LegParts: {
+                Type: 0b,
+                PlayerTexture: 1b,
+                Color: 16777215
+            },
+            Parts: [
+            ],
+            Breasts: 0b,
+            Headwear: 2b,
+            ArmsConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            },
+            ExtraData: {
+            },
+            HeadConfig: {
+                ScaleZ: 1.0f,
+                TransZ: 0.0f,
+                TransY: 0.0f,
+                TransX: 0.0f,
+                ScaleY: 1.0f,
+                ScaleX: 1.0f
+            }
+        },
+        TransformIsActive: 0b,
+        MovingState: 1,
+        MovingPos: 0,
+        PotionAmp: 0,
+        OnAttack: 0,
+        TacticalRadius: 6,
+        MaxExp: 0,
+        pGlows: 1b,
+        TransformHasAdvanced: 0b,
+        TransformHasStats: 0b,
+        FiringSound: "random.bow",
+        Accuracy: 40,
+        MinExp: 0,
+        Armor: [
+            {
+                Slot: 0b,
+                id: 4777s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 3s,
+                            id: 0s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 34s
+                        }
+                    ]
+                },
+                Damage: 335s
+            },
+            {
+                Slot: 1b,
+                id: 4697s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 1s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 34s
+                        }
+                    ]
+                },
+                Damage: 103s
+            },
+            {
+                Slot: 2b,
+                id: 4779s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 0s
+                        }
+                    ]
+                },
+                Damage: 450s
+            },
+            {
+                Slot: 3b,
+                id: 4156s,
+                Count: 1b,
+                tag: {
+                    ench: [
+                        {
+                            lvl: 4s,
+                            id: 4s
+                        },
+                        {
+                            lvl: 3s,
+                            id: 153s
+                        }
+                    ]
+                },
+                Damage: 280s
+            }
+        ],
+        CloakTexture: "",
+        GlowTexture: "",
+        pXlr8: 0b,
+        MaxFiringRange: 18,
+        pExplode: 0b,
+        pStick: 1b,
+        NpcDeathSound: "minecraft:game.player.hurt",
+        MovingPause: 1b,
+        FactionID: 2,
+        Title: "",
+        npcInteracting: 0b,
+        ShowName: 0,
+        AvoidsWater: 0b,
+        NoLivingAnimation: 0b,
+        SpawnCycle: 0
+    },
+    LinkedName: "TaintedHero"
+}

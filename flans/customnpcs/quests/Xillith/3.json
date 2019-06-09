@@ -1,0 +1,52 @@
+{
+    CompleterNpc: "Archmage Xillith",
+    NextQuestId: -1,
+    RandomReward: 0b,
+    QuestRepeat: 0,
+    QuestCompletion: 0,
+    IgnoreNBT: 0b,
+    Title: "Cake",
+    Text: "You must bring Archmage Xillith acake.",
+    QuestFactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    RewardExp: 100,
+    QuestCommand: "",
+    ModRev: 16,
+    Type: 0,
+    QuestMail: {
+        Sender: "",
+        BeenRead: 0b,
+        Message: {
+        },
+        MailItems: [
+        ],
+        MailQuest: -1,
+        TimePast: 1439242065680L,
+        Time: 0L,
+        Subject: ""
+    },
+    IgnoreDamage: 0b,
+    Rewards: {
+        NpcMiscInv: [
+        ]
+    },
+    Items: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: 354s,
+                Count: 1b,
+                Damage: 0s
+            }
+        ]
+    },
+    LeaveItems: 0b,
+    CompleteText: "Cake! Oh, wow. This is amazing. I thought I would never eat another cake again.Please, take my thanks. I have nothing to offer you that I have not already given you, but I hope that the gratitude of an old, foolishwizard is enough reward.I must savor every bite of this blessed meal...",
+    NextQuestTitle: ""
+}

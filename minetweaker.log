@@ -1,0 +1,974 @@
+ERROR: system: AutoSpawner is already defined in that package
+INFO: MineTweaker: Building registry
+INFO: MineTweaker: Sucessfully built item registry
+INFO: Adding command minetweaker
+INFO: Adding minetweaker command mfr
+INFO: Hiding item.cookingbook:recipebook_tier0 in NEI
+INFO: Removing 1 recipes
+INFO: Removing 1 recipes
+INFO: Adding recipe for Cooking for Blockheads II
+INFO: Adding tooltip for <cookingbook:recipebook>: minetweaker.mc1710.formatting.FormattedString@61045ef5
+INFO: Adding tooltip for <cookingbook:recipebook>: minetweaker.mc1710.formatting.FormattedString@5c331b72
+INFO: Adding Alchemy Recipe for Diamond Sword
+INFO: Adding Alchemy Recipe for Diamond Pickaxe
+INFO: Adding Alchemy Recipe for Diamond Axe
+INFO: Adding Alchemy Recipe for Diamond Shovel
+INFO: Removing 1 recipes
+INFO: Adding recipe for Blood Altar
+INFO: Removing 1 recipes
+INFO: Adding recipe for Sacrificial Knife
+INFO: Removing Blood Altar Recipe for Dagger of Sacrifice
+INFO: Adding Blood Altar Recipe for Dagger of Sacrifice
+INFO: Removing 1 recipes
+INFO: Adding Blood Orb Recipe for Rune of Acceleration
+INFO: Removing 1 recipes
+INFO: Adding Blood Orb Recipe for Rune of Sacrifice
+INFO: Removing 1 recipes
+INFO: Adding Blood Orb Recipe for Rune of Self-Sacrifice
+ERROR: Botania.zs:3 > No such member: botania
+ERROR: Botania.zs:3 > Not a valid type
+ERROR: Botania.zs:11 > could not find Lexicon
+ERROR: Error executing Botania.zs: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: ?:3 > No such member: thaumcraft
+ERROR: Error executing BotaniaTCAspects.zs: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: ChickenChunks.zs:6 > No such member: thaumcraft
+ERROR: Error executing ChickenChunks.zs: 6
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+INFO: Hiding tile.npcBloodBlock in NEI
+INFO: Hiding tile.npcLocationBlock in NEI
+INFO: Hiding tile.npcBorder in NEI
+INFO: Hiding item.npcBronzeStaff in NEI
+INFO: Hiding item.npcStoneSpear in NEI
+INFO: Hiding item.npcLetter in NEI
+INFO: Hiding item.npcDemonicTrident in NEI
+INFO: Hiding item.npcMana in NEI
+INFO: Hiding item.npcArtifact in NEI
+INFO: Hiding item.npcTuxedoChest in NEI
+INFO: Hiding item.npcMacuahuitl in NEI
+INFO: Hiding item.npcWrench in NEI
+INFO: Hiding item.npcWoodenSpear in NEI
+INFO: Hiding item.npcDiamondBattleAxe in NEI
+INFO: Hiding item.npcNanorumHead in NEI
+INFO: Hiding item.npcTuxedoBottom in NEI
+INFO: Hiding item.npcDiamondDagger in NEI
+INFO: Hiding item.npcCrystal in NEI
+INFO: Hiding item.npcCoinStone in NEI
+INFO: Hiding item.npcCoinGold in NEI
+INFO: Hiding item.npcFullDiaShield in NEI
+INFO: Hiding item.npcBronzeHalberd in NEI
+INFO: Hiding item.npcAirElement in NEI
+INFO: Hiding item.npcFrostGlaive in NEI
+INFO: Hiding item.npcKunai in NEI
+INFO: Hiding item.npcExcalibur in NEI
+INFO: Hiding item.npcEmeraldShield in NEI
+INFO: Hiding item.npcHandCuffs in NEI
+INFO: Hiding item.npcKey2 in NEI
+INFO: Hiding item.npcCoinEmerald in NEI
+INFO: Hiding item.npcGoldenWarhammer in NEI
+INFO: Hiding item.npcRapier in NEI
+INFO: Hiding item.npcBronzeDagger in NEI
+INFO: Hiding item.npcWoodenMace in NEI
+INFO: Hiding item.npcWaterElement in NEI
+INFO: Hiding item.npcHockeyStick in NEI
+INFO: Hiding item.npcFullBronzeHead in NEI
+INFO: Hiding item.npcTacticalChest in NEI
+INFO: Hiding item.npcDemonicMace in NEI
+INFO: Hiding item.npcFrostScythe in NEI
+INFO: Hiding item.npcLeadPipe in NEI
+INFO: Hiding item.npcGoldenScythe in NEI
+INFO: Hiding item.npcWoodenWarhammer in NEI
+INFO: Hiding item.npcBearClaw in NEI
+INFO: Hiding item.npcWoodenDagger in NEI
+INFO: Hiding item.npcX407Chest in NEI
+INFO: Hiding item.npcBronzeIngot in NEI
+INFO: Hiding item.npcBronzeScythe in NEI
+INFO: Hiding item.npcBronzeMace in NEI
+INFO: Hiding item.npcEmeraldBattleAxe in NEI
+INFO: Hiding item.npcIceSpell in NEI
+INFO: Hiding item.npcDemonicShield in NEI
+INFO: Hiding item.npcBronzeBroadsword in NEI
+INFO: Hiding item.npcPlans in NEI
+INFO: Hiding item.npcCarKey in NEI
+INFO: Hiding item.npcWoodenBattleAxe in NEI
+INFO: Hiding item.npcDiamondWarhammer in NEI
+INFO: Hiding item.npcSeveredEar in NEI
+INFO: Hiding item.npcDemonicSword in NEI
+INFO: Hiding item.npcStoneHalberd in NEI
+INFO: Hiding item.npcDiamondBroadsword in NEI
+INFO: Hiding item.npcFullDiamondChest in NEI
+INFO: Hiding item.npcHolySpell in NEI
+INFO: Hiding item.npcDiamondSpear in NEI
+INFO: Hiding item.npcDiamondReversedDagger in NEI
+INFO: Hiding item.npcEmeraldGlaive in NEI
+INFO: Hiding item.npcFrostTrident in NEI
+INFO: Hiding item.npcFullLeatherChest in NEI
+INFO: Hiding item.npcFrostDagger in NEI
+INFO: Hiding item.npcIronTrident in NEI
+INFO: Hiding item.npcGoldTrident in NEI
+INFO: Hiding item.npcFullBronzeShield in NEI
+INFO: Hiding item.npcDemonicGlaive in NEI
+INFO: Hiding item.npcBaseballBat in NEI
+INFO: Hiding item.npcWoodenHalberd in NEI
+INFO: Hiding item.npcIronStaff in NEI
+INFO: Hiding item.npcDarkSpell in NEI
+INFO: Hiding item.npcWoodenScythe in NEI
+INFO: Hiding item.npcFrostSword in NEI
+INFO: Hiding item.npcTowerShield in NEI
+INFO: Hiding item.npcIronSpear in NEI
+INFO: Hiding item.npcFullIronChest in NEI
+INFO: Hiding item.npcFrostShield in NEI
+INFO: Hiding item.npcDiaShield in NEI
+INFO: Hiding item.npcIronBattleAxe in NEI
+INFO: Hiding item.npcSkull in NEI
+INFO: Hiding item.npcDemonicHalberd in NEI
+INFO: Hiding item.npcWoodenShield in NEI
+INFO: Hiding item.npcBlueprint in NEI
+INFO: Hiding item.npcFullEmeraldLeggings in NEI
+INFO: Hiding item.npcFullDiamondHead in NEI
+INFO: Hiding item.npcBrokenBottle in NEI
+INFO: Hiding item.npcStoneTrident in NEI
+INFO: Hiding item.npcCommissarBottom in NEI
+INFO: Hiding item.npcEmeraldWarhammer in NEI
+INFO: Hiding item.npcFullWoodenLeggings in NEI
+INFO: Hiding item.npcCombatKnive in NEI
+INFO: Hiding item.npcPaperCrown in NEI
+INFO: Hiding item.npcFullBronzeBoots in NEI
+INFO: Hiding item.npcIronHalberd in NEI
+INFO: Hiding item.npcEmeraldSword in NEI
+INFO: Hiding item.npcEmeraldTrident in NEI
+INFO: Hiding item.npcGoldenSpear in NEI
+INFO: Hiding item.npcGoldenGlaive in NEI
+INFO: Hiding item.npcCrossbow in NEI
+INFO: Hiding item.npcNinjaChest in NEI
+INFO: Hiding item.npcCowleatherHead in NEI
+INFO: Hiding item.npcCoinIron in NEI
+INFO: Hiding item.npcGoldSkirt in NEI
+INFO: Hiding item.npcBanjo in NEI
+INFO: Hiding item.npcIronMace in NEI
+INFO: Hiding item.npcLeafBlade in NEI
+INFO: Hiding item.npcMusket in NEI
+INFO: Hiding item.npcDiamondTrident in NEI
+INFO: Hiding item.npcDemonicDagger in NEI
+INFO: Hiding item.npcEarthElement in NEI
+INFO: Hiding item.npcFullEmeraldHead in NEI
+INFO: Hiding item.npcStoneMace in NEI
+INFO: Hiding item.npcX407Legs in NEI
+INFO: Hiding item.npcArcaneSpell in NEI
+INFO: Hiding item.npcRing in NEI
+INFO: Hiding item.npcScutumShield in NEI
+INFO: Hiding item.npcDiamondTrident in NEI
+INFO: Hiding item.npcAncientScroll in NEI
+INFO: Hiding item.npcEmeraldSpear in NEI
+INFO: Hiding item.npcKukri in NEI
+INFO: Hiding item.npcViolinBow in NEI
+INFO: Hiding item.npcKey in NEI
+INFO: Hiding item.npcBag in NEI
+INFO: Hiding item.npcFullStoneShield in NEI
+INFO: Hiding item.npcCommissarChest in NEI
+INFO: Hiding item.npcGoldenBroadsword in NEI
+INFO: Hiding item.npcAncientCoin in NEI
+INFO: Hiding item.npcLightningSpell in NEI
+INFO: Hiding item.npcCoinWooden in NEI
+INFO: Hiding item.npcIronWarhammer in NEI
+INFO: Hiding item.npcBronzeReversedDagger in NEI
+INFO: Hiding item.npcFrostWarhammer in NEI
+INFO: Hiding item.npcSledgeHammer in NEI
+INFO: Hiding item.npcSwissArmyKnife in NEI
+INFO: Hiding item.npcStoneScythe in NEI
+INFO: Hiding item.npcDiamondHalberd in NEI
+INFO: Hiding item.npcFrostSpear in NEI
+INFO: Hiding item.npcFullEmeraldBoots in NEI
+INFO: Hiding item.npcDemonicScythe in NEI
+INFO: Hiding item.npcTacticalHead in NEI
+INFO: Hiding item.npcCursedTrident in NEI
+INFO: Hiding item.npcGoldenMace in NEI
+INFO: Hiding item.npcFrostStaff in NEI
+INFO: Hiding item.npcBoStaff in NEI
+INFO: Hiding item.npcFrostBroadsword in NEI
+INFO: Hiding item.npcGoldenShield in NEI
+INFO: Hiding item.npcBronzeSword in NEI
+INFO: Hiding item.npcFrostMace in NEI
+INFO: Hiding item.npcBronzeTrident in NEI
+INFO: Hiding item.npcSaber in NEI
+INFO: Hiding item.npcPhone in NEI
+INFO: Hiding item.npcGoldenBattleAxe in NEI
+INFO: Hiding item.npcIronScythe in NEI
+INFO: Hiding item.npcEmeraldHalberd in NEI
+INFO: Hiding item.npcNinjaPants in NEI
+INFO: Hiding item.npcFullIronShield in NEI
+INFO: Hiding item.npcDiamondGlaive in NEI
+INFO: Hiding item.npcNinjaHead in NEI
+INFO: Hiding item.npcDemonicBroadsword in NEI
+INFO: Hiding item.npcEmeraldReversedDagger in NEI
+INFO: Hiding item.npcGunChainsaw in NEI
+INFO: Hiding item.npcFullEmeraldChest in NEI
+INFO: Hiding item.npcDiamondScythe in NEI
+INFO: Hiding item.npcWoodenGlaive in NEI
+INFO: Hiding item.npcGoldenReversedDagger in NEI
+INFO: Hiding item.npcBronzeWarhammer in NEI
+INFO: Hiding item.npcWoodenBroadsword in NEI
+INFO: Hiding item.npcStoneBroadsword in NEI
+INFO: Hiding item.npcOfficerChest in NEI
+INFO: Hiding item.npcTablet in NEI
+INFO: Hiding item.npcNanorumBoots in NEI
+INFO: Hiding item.npcStoneBattleAxe in NEI
+INFO: Hiding item.npcFullIronHead in NEI
+INFO: Hiding item.npcMagicWand in NEI
+INFO: Hiding item.npcBrokenArrow in NEI
+INFO: Hiding item.npcDemonicIngot in NEI
+INFO: Hiding item.npcSaiBlade in NEI
+INFO: Hiding item.npcStoneWarhammer in NEI
+INFO: Hiding item.npcIronSkirt in NEI
+INFO: Hiding item.npcCowleatherLegs in NEI
+INFO: Hiding item.npcEmeraldScythe in NEI
+INFO: Hiding item.npcWoodenStaff in NEI
+INFO: Hiding item.npcBronzeShield in NEI
+INFO: Hiding item.npcReverseKunai in NEI
+INFO: Hiding item.npcFullBronzeLeggings in NEI
+INFO: Hiding item.npcCrown2 in NEI
+INFO: Hiding item.npcStoneStaff in NEI
+INFO: Hiding item.npcLeatherSkirt in NEI
+INFO: Hiding item.npcEmeraldStaff in NEI
+INFO: Hiding item.npcFullWoodenHead in NEI
+INFO: Hiding item.npcCowleatherChest in NEI
+INFO: Hiding item.npcFullWoodenBoots in NEI
+INFO: Hiding item.npcFullEmeraldShield in NEI
+INFO: Hiding item.npcDemonicBattleAxe in NEI
+INFO: Hiding item.npcGoldenHalberd in NEI
+INFO: Hiding item.npcGoldenStaff in NEI
+INFO: Hiding item.npcNanorumLegs in NEI
+INFO: Hiding item.npcFullWoodenChest in NEI
+INFO: Hiding item.npcFullGoldHead in NEI
+INFO: Hiding item.npcNinjaClaw in NEI
+INFO: Hiding item.npcFireSpell in NEI
+INFO: Hiding item.npcFrostBattleAxe in NEI
+INFO: Hiding item.npcDemonicWarhammer in NEI
+INFO: Hiding item.npcFrostHalberd in NEI
+INFO: Hiding item.npcFullBronzeChest in NEI
+INFO: Hiding item.npcChainSkirt in NEI
+INFO: Hiding item.npcGoldenDagger in NEI
+INFO: Hiding item.npcEmeraldBroadsword in NEI
+INFO: Hiding item.npcCleaver in NEI
+INFO: Hiding item.npcViolin in NEI
+INFO: Hiding item.npcChickenSword in NEI
+INFO: Hiding item.npcDiamondSkirt in NEI
+INFO: Hiding item.npcCommissarHead in NEI
+INFO: Hiding item.npcWoodenTrident in NEI
+INFO: Hiding item.npcBronzeSpear in NEI
+INFO: Hiding item.npcSilk in NEI
+INFO: Hiding item.npcFireElement in NEI
+INFO: Hiding item.npcBronzeBattleAxe in NEI
+INFO: Hiding item.npcFullGoldenShield in NEI
+INFO: Hiding item.npcBanditMask in NEI
+INFO: Hiding item.npcClarinet in NEI
+INFO: Hiding item.npcTuxedoPants in NEI
+INFO: Hiding item.npcCommissarLegs in NEI
+INFO: Hiding item.npcDiamondMace in NEI
+INFO: Hiding item.npcWoodenReversedDagger in NEI
+INFO: Hiding item.npcBatton in NEI
+INFO: Hiding item.npcIronGlaive in NEI
+INFO: Hiding item.npcCryscentShield in NEI
+INFO: Hiding item.npcCrossBolt in NEI
+INFO: Hiding item.npcHeaterShield in NEI
+INFO: Hiding item.npcBronzeGlaive in NEI
+INFO: Hiding item.npcInfantryHelmet in NEI
+INFO: Hiding item.npcSatchel in NEI
+INFO: Hiding item.npcDemonicSpear in NEI
+INFO: Hiding item.npcGuitar in NEI
+INFO: Hiding item.npcIronShield in NEI
+INFO: Hiding item.npcStoneGlaive in NEI
+INFO: Hiding item.npcGolfClub in NEI
+INFO: Hiding item.npcDemonicStaff in NEI
+INFO: Hiding item.npcHammer in NEI
+INFO: Hiding item.npcEmeraldDagger in NEI
+INFO: Hiding item.npcFullGoldChest in NEI
+INFO: Hiding item.npcX407Head in NEI
+INFO: Hiding item.npcNatureSpell in NEI
+INFO: Hiding item.npcDiamondStaff in NEI
+INFO: Hiding item.npcCowleatherBoots in NEI
+INFO: Hiding item.npcCoinDiamond in NEI
+INFO: Hiding item.npcSoldierChest in NEI
+INFO: Hiding item.npcX407Boots in NEI
+INFO: Hiding item.npcEmeraldMace in NEI
+INFO: Hiding item.npcDemonicReversedDagger in NEI
+INFO: Hiding item.npcPipeWrench in NEI
+INFO: Hiding item.npcMithrilShield in NEI
+INFO: Hiding item.npcMithrilHalberd in NEI
+INFO: Hiding item.npcMithrilScythe in NEI
+INFO: Hiding item.npcDemonicSkirt in NEI
+INFO: Hiding item.npcMithrilTrident in NEI
+INFO: Hiding item.npcMithrilBoots in NEI
+INFO: Hiding item.npcMithrilMace in NEI
+INFO: Hiding item.npcMithrilChest in NEI
+INFO: Hiding item.npcMoney in NEI
+INFO: Hiding item.npcMithrilStaff in NEI
+INFO: Hiding item.npcMithrilWarhammer in NEI
+INFO: Hiding item.npcHeart in NEI
+INFO: Hiding item.npcMithrilGlaive in NEI
+INFO: Hiding item.npcMithrilLegs in NEI
+INFO: Hiding item.npcDemonicLegs in NEI
+INFO: Hiding item.npcMithrilBattleAxe in NEI
+INFO: Hiding item.npcMithrilBroadsword in NEI
+INFO: Hiding item.npcBronzeSkirt in NEI
+INFO: Hiding item.npcSoulstoneFilled in NEI
+INFO: Hiding item.npcNecklace in NEI
+INFO: Hiding item.npcDemonicBoots in NEI
+INFO: Hiding item.npcMithrilSkirt in NEI
+INFO: Hiding item.npcMithrilDagger in NEI
+INFO: Hiding item.npcMithrilSpear in NEI
+INFO: Hiding item.npcDemonicHead in NEI
+INFO: Hiding item.npcMithrilHead in NEI
+INFO: Hiding item.npcUsbStick in NEI
+INFO: Hiding item.npcMithrilSword in NEI
+INFO: Hiding item.npcEmeraldSkirt in NEI
+INFO: Hiding item.npcMithrilReversedDagger in NEI
+INFO: Hiding item.npcDemonicChest in NEI
+INFO: Hiding item.npcBrokenOrb in NEI
+INFO: Hiding item.npcElementalStaff in NEI
+INFO: Hiding item.npcOrb in NEI
+INFO: Hiding tile.npcPlaceholder_32767 in NEI
+INFO: Hiding item.npcCrystal in NEI
+INFO: Hiding item.npcMithrilIngot in NEI
+INFO: Hiding item.npcSoulstoneEmpty in NEI
+INFO: Hiding item.npcFrostReversedDagger in NEI
+INFO: Removing Mithril Ingot from ore dictionary entry ingotMithril
+INFO: Adding tooltip for <customnpcs:npcStoneReversedDagger>: minetweaker.mc1710.formatting.FormattedString@793002f2
+INFO: Adding tooltip for <customnpcs:npcStoneReversedDagger>: minetweaker.mc1710.formatting.FormattedString@588eed17
+INFO: Adding tooltip for <customnpcs:npcSlingshot>: minetweaker.mc1710.formatting.FormattedMarkupString@6c23f805
+INFO: Adding tooltip for <customnpcs:npcSlingshot>: minetweaker.mc1710.formatting.FormattedString@49c5df4f
+INFO: Adding tooltip for <customnpcs:npcSlingshot>: minetweaker.mc1710.formatting.FormattedString@648e7c61
+INFO: Adding tooltip for <customnpcs:npcFullWoodenShield>: minetweaker.mc1710.formatting.FormattedString@38628255
+INFO: Adding tooltip for <customnpcs:npcFullWoodenShield>: minetweaker.mc1710.formatting.FormattedString@4a8906d0
+INFO: Adding tooltip for <customnpcs:npcStoneShield>: minetweaker.mc1710.formatting.FormattedString@696abc43
+INFO: Adding tooltip for <customnpcs:npcStoneShield>: minetweaker.mc1710.formatting.FormattedString@2ec28180
+INFO: Adding tooltip for <customnpcs:npcOcarina>: minetweaker.mc1710.formatting.FormattedString@60c6cf95
+INFO: Adding tooltip for <customnpcs:npcOcarina>: minetweaker.mc1710.formatting.FormattedString@b767a90
+INFO: Translating item.npcHarp.name to Lyre
+INFO: Adding tooltip for <customnpcs:npcHarp>: minetweaker.mc1710.formatting.FormattedString@3eb275e7
+INFO: Adding tooltip for <customnpcs:npcHarp>: minetweaker.mc1710.formatting.FormattedString@54b7d173
+INFO: Adding recipe for Crowbar
+INFO: Adding tooltip for <customnpcs:npcCrowbar>: minetweaker.mc1710.formatting.FormattedString@442f3b5
+INFO: Adding tooltip for <customnpcs:npcCrowbar>: minetweaker.mc1710.formatting.FormattedString@287ff820
+INFO: Adding tooltip for <customnpcs:npcCrowbar>: minetweaker.mc1710.formatting.FormattedString@52640de4
+INFO: Adding recipe for French Horn
+INFO: Adding tooltip for <customnpcs:npcFrenchHorn>: minetweaker.mc1710.formatting.FormattedString@4ac799e2
+INFO: Adding tooltip for <customnpcs:npcFrenchHorn>: minetweaker.mc1710.formatting.FormattedString@7094d660
+INFO: Adding tooltip for <customnpcs:npcFrenchHorn>: minetweaker.mc1710.formatting.FormattedString@531af075
+INFO: Adding tooltip for <customnpcs:npcPendant>: minetweaker.mc1710.formatting.FormattedString@482bab26
+INFO: Adding tooltip for <customnpcs:npcPendant>: minetweaker.mc1710.formatting.FormattedString@4af94685
+INFO: Adding tooltip for <customnpcs:npcLocket>: minetweaker.mc1710.formatting.FormattedString@13c2a7e9
+INFO: Adding tooltip for <customnpcs:npcLocket>: minetweaker.mc1710.formatting.FormattedString@79723017
+INFO: Adding tooltip for <customnpcs:npcStatuette>: minetweaker.mc1710.formatting.FormattedString@53f438d0
+INFO: Adding tooltip for <customnpcs:npcStatuette>: minetweaker.mc1710.formatting.FormattedString@3eb24f6b
+ERROR: ?:1 > No such member: thaumcraft
+ERROR: Error executing DawnMachine.zs: 6
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: ?:1 > No such member: thaumcraft
+ERROR: Error executing EssentiaEverything.zs: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: Extrautils Wings.zs:10 > No such member: thaumcraft
+ERROR: Error executing Extrautils Wings.zs: 6
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: Forbidden Magic.zs:43 > No such member: botania
+ERROR: Error executing Forbidden Magic.zs: 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+INFO: Adding recipe for Wooden Gun
+INFO: Adding recipe for Stone Gun
+INFO: Adding recipe for Golden Gun
+INFO: Adding recipe for Bronze Gun
+INFO: Adding recipe for Iron Gun
+INFO: Adding recipe for Diamond Gun
+INFO: Adding recipe for Emerald Gun
+INFO: Adding recipe for Machine Gun
+INFO: Adding tooltip for <customnpcs:npcWoodenGun>: minetweaker.mc1710.formatting.FormattedMarkupString@6b3fddc4
+INFO: Adding tooltip for <customnpcs:npcWoodenGun>: minetweaker.mc1710.formatting.FormattedStringJoin@451ec55e
+INFO: Adding tooltip for <customnpcs:npcWoodenGun>: minetweaker.mc1710.formatting.FormattedString@3fbf1f67
+INFO: Adding tooltip for <customnpcs:npcStoneGun>: minetweaker.mc1710.formatting.FormattedMarkupString@479273d2
+INFO: Adding tooltip for <customnpcs:npcStoneGun>: minetweaker.mc1710.formatting.FormattedStringJoin@29a0edec
+INFO: Adding tooltip for <customnpcs:npcStoneGun>: minetweaker.mc1710.formatting.FormattedString@22d34927
+INFO: Adding tooltip for <customnpcs:npcGoldGun>: minetweaker.mc1710.formatting.FormattedMarkupString@7ef8fe24
+INFO: Adding tooltip for <customnpcs:npcGoldGun>: minetweaker.mc1710.formatting.FormattedStringJoin@6dbccdc9
+INFO: Adding tooltip for <customnpcs:npcGoldGun>: minetweaker.mc1710.formatting.FormattedString@493a2455
+INFO: Adding tooltip for <customnpcs:npcGoldGun>: minetweaker.mc1710.formatting.FormattedString@663854e2
+INFO: Adding tooltip for <customnpcs:npcBronzeGun>: minetweaker.mc1710.formatting.FormattedMarkupString@59f82e70
+INFO: Adding tooltip for <customnpcs:npcBronzeGun>: minetweaker.mc1710.formatting.FormattedStringJoin@1837f664
+INFO: Adding tooltip for <customnpcs:npcBronzeGun>: minetweaker.mc1710.formatting.FormattedString@4ccad33
+INFO: Adding tooltip for <customnpcs:npcBronzeGun>: minetweaker.mc1710.formatting.FormattedString@7eec18c0
+INFO: Adding tooltip for <customnpcs:npcIronGun>: minetweaker.mc1710.formatting.FormattedMarkupString@7fcc2b07
+INFO: Adding tooltip for <customnpcs:npcIronGun>: minetweaker.mc1710.formatting.FormattedStringJoin@421e4161
+INFO: Adding tooltip for <customnpcs:npcIronGun>: minetweaker.mc1710.formatting.FormattedString@701bb7f
+INFO: Adding tooltip for <customnpcs:npcDiamondGun>: minetweaker.mc1710.formatting.FormattedMarkupString@38c0159f
+INFO: Adding tooltip for <customnpcs:npcDiamondGun>: minetweaker.mc1710.formatting.FormattedStringJoin@72211a10
+INFO: Adding tooltip for <customnpcs:npcDiamondGun>: minetweaker.mc1710.formatting.FormattedString@6877af19
+INFO: Adding tooltip for <customnpcs:npcEmeraldGun>: minetweaker.mc1710.formatting.FormattedMarkupString@66985631
+INFO: Adding tooltip for <customnpcs:npcEmeraldGun>: minetweaker.mc1710.formatting.FormattedStringJoin@7a8beb45
+INFO: Adding tooltip for <customnpcs:npcEmeraldGun>: minetweaker.mc1710.formatting.FormattedString@5b6118c9
+INFO: Adding tooltip for <customnpcs:npcMachineGun>: minetweaker.mc1710.formatting.FormattedMarkupString@5d51f778
+INFO: Adding tooltip for <customnpcs:npcMachineGun>: minetweaker.mc1710.formatting.FormattedStringJoin@16d7d11c
+INFO: Adding tooltip for <customnpcs:npcMachineGun>: minetweaker.mc1710.formatting.FormattedString@13cace67
+INFO: Adding tooltip for <customnpcs:npcMachineGun>: minetweaker.mc1710.formatting.FormattedString@6733df4c
+INFO: Adding tooltip for <customnpcs:npcMachineGun>: minetweaker.mc1710.formatting.FormattedString@73b40b5f
+INFO: Adding recipe for Wooden Bullet
+INFO: Adding recipe for Stone Bullet
+INFO: Adding recipe for Golden Bullet
+INFO: Adding recipe for Bronze Bullet
+INFO: Adding recipe for Iron Bullet
+INFO: Adding recipe for Diamond Bullet
+INFO: Adding recipe for Emerald Bullet
+INFO: Adding recipe for Black Bullet
+ERROR: MFR Laser Drill.zs:409 > No such member: thermalexpansion
+ERROR: Error executing MFR Laser Drill.zs: 4
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: Mana Cookie Nerf.zs:27 > No such member: botania
+ERROR: Mana Cookie Nerf.zs:28 > No such member: botania
+ERROR: Error executing Mana Cookie Nerf.zs: 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: Misc. Singletons.zs:11 > No such member: thermalexpansion
+ERROR: Error executing Misc. Singletons.zs: 4
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: TiC and ExtraTiC.zs:3 > No such member: tconstruct
+ERROR: Error executing TiC and ExtraTiC.zs: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+INFO: Setting localization for the key: ore.yellorite.name to Yellorite Ore
+INFO: Setting localization for the key: tile.tconstruct.stoneore.name to Aluminum Ore
+ERROR: hello (1).zs:180 > No such member: thaumcraft
+ERROR: Error executing hello (1).zs: 6
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+ERROR: killHarvestCraft.zs:1541 > No such member: thermalexpansion
+ERROR: Error executing killHarvestCraft.zs: 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:154)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:37)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:202)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:81)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:42)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:19)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:111)
+	at minetweaker.runtime.MTTweaker.load(MTTweaker.java:157)
+	at minetweaker.MineTweakerImplementationAPI.reload(MineTweakerImplementationAPI.java:682)
+	at minetweaker.MineTweakerImplementationAPI.onServerStart(MineTweakerImplementationAPI.java:591)
+	at minetweaker.mc1710.MineTweakerMod.onServerAboutToStart(MineTweakerMod.java:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.serverAboutToStart(Loader.java:859)
+	at cpw.mods.fml.common.FMLCommonHandler.handleServerAboutToStart(FMLCommonHandler.java:273)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:91)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)

@@ -1,0 +1,35 @@
+{
+    ItemGiverChained: [
+    ],
+    TransportData: [
+    ],
+    FactionData: [
+        {
+            Points: 2000,
+            Faction: 0
+        }
+    ],
+    BankData: [
+    ],
+    ItemGiversList: [
+    ],
+    MailData: [
+    ],
+    PlayerName: "Talonos",
+    QuestData: {
+        CompletedQuests: [
+        ],
+        ActiveQuests: [
+        ]
+    },
+    UUID: "ae96f4b9-eb77-4008-9735-992e96e0171b",
+    PlayerCompanionId: 0,
+    DialogData: [
+        {
+            Dialog: 65
+        },
+        {
+            Dialog: 4
+        }
+    ]
+}
